@@ -1,4 +1,4 @@
-``sh
+```sh
 sudo apt-get install neovim xsel python3 python2 python3-pip
 pip3 install pynvim
 npm i -g neovim
@@ -10,4 +10,4 @@ nvim
 :checkhealth
 :PlugStatus
 :PlugInstall
-``
+```
