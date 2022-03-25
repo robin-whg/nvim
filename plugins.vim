@@ -13,18 +13,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Theme
-    Plug 'arcticicestudio/nord-vim'
+    Plug 'projekt0n/github-nvim-theme'
     " Git status
     Plug 'itchyny/vim-gitbranch'
     " Statusbar
     Plug 'itchyny/lightline.vim'
 call plug#end()
 
-colorscheme nord   
+colorscheme github_dark_default   
 
 " lightline
   let g:lightline = {
-      \ 'colorscheme': 'nord',
+      \ 'colorscheme': 'github_dark_default',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
